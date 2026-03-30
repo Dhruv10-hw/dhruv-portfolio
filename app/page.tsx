@@ -209,7 +209,7 @@ export default function Home() {
         <SecTitle>EXPERIENCE</SecTitle>
         <div style={{ position:"relative",paddingLeft:28 }}>
           <div style={{ position:"absolute",left:0,top:8,bottom:0,width:1,background:`linear-gradient(to bottom,${RED},transparent)` }}/>
-          <TLItem period="Delta Rising Force — 2026–Present" role="Data Analyst — Marketing and Growth"
+          <TLItem period="Delta Rising Foundation — 2026–Present" role="Data Analyst — Marketing and Growth"
             company="Nonprofit Marketing Analytics · Sole Analyst supporting website, campaigns, and cross-functional teams"
             points={[
               <><strong>Increased marketing visibility and decision-making speed</strong> built and automated a weekly analytics system (GA4, Excel, Looker Studio) tracking 600+ monthly users and 167 weekly sessions, enabling real-time insights across traffic, user behavior, and performance trends</>,
@@ -244,7 +244,7 @@ export default function Home() {
             <div style={{ fontFamily:DISP,fontSize:"2.5rem",letterSpacing:".04em",lineHeight:.95,color:"#fff",marginBottom:20 }}>
               BUSINESS<br/>PARTNER,<br/>NOT JUST<br/>AN ANALYST
             </div>
-            <p className="abt-p">I am a <strong>Data Analyst with 2+ years of professional experience</strong> supporting sales, marketing, and executive stakeholders across real estate and digital platforms. I specialize in transforming messy operational data into structured insights that drive measurable business impact.</p>
+            <p className="abt-p">I am a <strong>Data Analyst with 3+ years of professional experience</strong> supporting sales, marketing, and executive stakeholders across real estate and digital platforms. I specialize in transforming messy operational data into structured insights that drive measurable business impact.</p>
             <p className="abt-p">At Echelon India, I served as the sole Sales Operations Data Analyst, supporting 12+ sales representatives and contributing to $24M+ project launches. My dashboards improved pipeline visibility, increased conversion rates by 12%, and optimized marketing ROI by 15%. I reduced manual reporting effort by 40% through SQL and Python automation.</p>
             <p className="abt-p">Previously at ENC Network, I executed A/B testing, statistical modeling, and cross-functional analytics that increased campaign conversions by 15% and improved data quality by 30%.</p>
             <p className="abt-p">I see myself not just as a data producer, but as a <strong>business partner</strong>. I own the full analytical lifecycle — from problem framing and data modeling to executive storytelling and recommendation delivery.</p>
@@ -254,7 +254,7 @@ export default function Home() {
             </div>
           </div>
           <div style={{ display:"grid",gridTemplateColumns:"1fr 1fr",gap:2 }}>
-            {[["2+","Years Experience"],["$24M+","Revenue Influenced"],["12%","Conversion Lift"],["40%","Reporting Saved"],["15%","Campaign Lift"],["30%","Data Quality Gain"]].map(([n,l])=>(
+            {[["3+","Years Experience"],["$24M+","Revenue Influenced"],["12%","Conversion Lift"],["40%","Reporting Saved"],["15%","Campaign Lift"],["30%","Data Quality Gain"]].map(([n,l])=>(
               <div key={l} style={{ background:SURF,padding:"26px 18px",textAlign:"center" }}>
                 <div style={{ fontFamily:DISP,fontSize:"2.2rem",color:RED }}>{n}</div>
                 <div style={{ fontSize:".68rem",letterSpacing:".12em",textTransform:"uppercase",color:MUTED,marginTop:4 }}>{l}</div>
