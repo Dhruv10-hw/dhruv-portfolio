@@ -209,6 +209,13 @@ export default function Home() {
         <SecTitle>EXPERIENCE</SecTitle>
         <div style={{ position:"relative",paddingLeft:28 }}>
           <div style={{ position:"absolute",left:0,top:8,bottom:0,width:1,background:`linear-gradient(to bottom,${RED},transparent)` }}/>
+          <TLItem period="Delta Rising Force — 2026–Present" role="Data Analyst — Marketing and Growth"
+            company="Nonprofit Marketing Analytics · Sole Analyst supporting website, campaigns, and cross-functional teams"
+            points={[
+              <><strong>Increased marketing visibility and decision-making speed</strong> built and automated a weekly analytics system (GA4, Excel, Looker Studio) tracking 600+ monthly users and 167 weekly sessions, enabling real-time insights across traffic, user behavior, and performance trends</>,
+              <><strong>Improved Google Ads efficiency within a $400/day budget</strong>  restructured 10+ keywords (broad → phrase), fixed tracking gaps, and leveraged Keyword Planner, raising CTR to ~4% and eliminating wasted spend from low-intent traffic</>,
+              <><strong>Identified critical website conversion gaps</strong> analyzed user behavior (43s avg engagement, 0s donation page engagement, ~25% traffic outside target geography) and translated findings into actionable recommendations adopted by cross-functional teams (marketing + web)</>,
+            ]}/>
           <TLItem period="Echelon India — 2023–2024" role="Data Analyst — Sales Operations"
             company="Real Estate & Project Launches · Sole Analyst supporting 12+ Sales Representatives"
             points={[
