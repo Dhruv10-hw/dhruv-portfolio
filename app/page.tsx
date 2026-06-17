@@ -164,7 +164,7 @@ export default function Home() {
             DHRUV<br/><span style={{color:RED}}>SHARMA</span>
           </h1>
           <p className="au3" style={{ marginTop:24,fontSize:"1.15rem",fontWeight:300,color:MUTED,letterSpacing:".04em" }}>
-            Revenue-Focused Data Analyst — Turning ambiguity into measurable business outcomes
+            Data Analyst — From operational data to executive decisions
           </p>
           <div className="au4" style={{ marginTop:14,display:"flex",flexWrap:"wrap",gap:8 }}>
             {["SQL","Python","Experimentation","BI Systems","Machine Learning"].map(t=>(
@@ -180,7 +180,7 @@ export default function Home() {
         </div>
 
         <div className="hero-stats au6" style={{ position:"absolute",right:72,bottom:100,zIndex:2,display:"flex",flexDirection:"column",gap:28,textAlign:"right" }}>
-          {[["$24M+","Revenue Influenced"],["12%","Conversion Lift"],["40%","Reporting Saved"]].map(([n,l])=>(
+          {[["$350K","Inventory Cut"],["82%","Dashboard Speedup"],["250+","Stores Supported"]].map(([n,l])=>(
             <div key={l}>
               <div style={{ fontFamily:DISP,fontSize:"2.8rem",color:"#fff",lineHeight:1 }}>{n}</div>
               <div style={{ fontSize:".72rem",letterSpacing:".15em",textTransform:"uppercase",color:MUTED,marginTop:2 }}>{l}</div>
@@ -209,32 +209,32 @@ export default function Home() {
         <SecTitle>EXPERIENCE</SecTitle>
         <div style={{ position:"relative",paddingLeft:28 }}>
           <div style={{ position:"absolute",left:0,top:8,bottom:0,width:1,background:`linear-gradient(to bottom,${RED},transparent)` }}/>
-          <TLItem period="Delta Rising Foundation — 2026–Present" role="Data Analyst — Marketing and Growth"
-            company="Nonprofit Marketing Analytics · Sole Analyst supporting website, campaigns, and cross-functional teams"
+          <TLItem period="Delta Rising Foundation — 2026–Present" role="Data Analyst — Growth & Marketing"
+            company="Sustainability Nonprofit · Remote, CA · Sole analyst across website, campaigns, and CRM"
             points={[
-              <><strong>Increased marketing visibility and decision-making speed</strong> built and automated a weekly analytics system (GA4, Excel, Looker Studio) tracking 600+ monthly users and 167 weekly sessions, enabling real-time insights across traffic, user behavior, and performance trends</>,
-              <><strong>Improved Google Ads efficiency within a $400/day budget</strong>  restructured 10+ keywords (broad → phrase), fixed tracking gaps, and leveraged Keyword Planner, raising CTR to ~4% and eliminating wasted spend from low-intent traffic</>,
-              <><strong>Identified critical website conversion gaps</strong> analyzed user behavior (43s avg engagement, 0s donation page engagement, ~25% traffic outside target geography) and translated findings into actionable recommendations adopted by cross-functional teams (marketing + web)</>,
+              <><strong>Cut weekly reporting from 60 minutes to 15</strong> by replacing a manual workflow with a 5-page Looker Studio dashboard wired directly into GA4 and Google Ads, covering traffic, geography, device, conversion, content, and press performance.</>,
+              <><strong>Caught 4 data-integrity issues the team had missed</strong> while monitoring 1500+ weekly active users in a Python (Pandas, NumPy) and SQL pipeline on GA4 — UTM fragmentation across 4 Facebook variants, a duplicate homepage pulling 19x the engagement of the canonical URL, an 8–10s app-page hang running 4 straight weeks, and dead footer links. The findings became the web team's fix list.</>,
+              <><strong>Reallocated a $120K Google Ad Grants budget</strong> away from a flat split into 4 ICP-weighted campaigns, prioritizing spend toward the highest-value carbon project segments.</>,
+              <><strong>Drafted the BigQuery data-warehouse proposal</strong> unifying GA4, Google Ads, and Salesforce — 5 fact/dimension tables, ETL workflows for cross-platform attribution, and a lead-funnel schema tracking each visitor from ad click to CRM conversion.</>,
             ]}/>
-          <TLItem period="Echelon India — 2023–2024" role="Data Analyst — Sales Operations"
-            company="Real Estate & Project Launches · Sole Analyst supporting 12+ Sales Representatives"
+           <TLItem period="Pepperfry — 2023" role="Data Analyst"
+            company="E-commerce & Retail Operations · On-site, India · 250+ retail stores"
             points={[
-              <><strong>$24M+ in project launches</strong> supported through data-driven market analysis, lead scoring models, and pipeline visibility dashboards</>,
-              <>Increased conversion rates by <strong>12%</strong> via funnel analysis; optimized marketing ROI by <strong>15%</strong> through targeted segmentation</>,
-              <>Reduced manual reporting effort by <strong>40%</strong> through SQL and Python automation</>,
-              <>Partnered directly with executives to deliver weekly decision-ready insights and strategic recommendations</>,
+              <><strong>Dropped dashboard load times 82% (45s → 8s)</strong> by rebuilding the Power BI data model and DAX layer for operations dashboards; executive usage picked up noticeably after.</>,
+              <><strong>Cut $350K of excess inventory annually and lifted forecast accuracy 18%</strong> by moving the replacement-parts team off cost-based forecasting onto quantity-based KPIs.</>,
+              <><strong>Owned the Power BI operations layer across 250+ retail stores</strong> and ran inventory/backorder analysis on 460 SKUs — leadership used the dashboards to flag underperformers, and the SKU work fed straight into replenishment planning.</>,
+              <><strong>Combined Placer.ai demographic data with internal footfall datasets</strong> in a regression model and ran Databricks AutoML K-Means clustering on the output to score new store and relocation candidates.</>,
             ]}/>
-          <TLItem period="ENC Network — 2021–2023" role="Data Analyst"
-            company="Digital Media & Marketing Analytics"
+          <TLItem period="Odilia Global — 2020–2022" role="Data Analyst (Consultant)"
+            company="Analytics Consultancy · Remote, India · Client: financial services firm"
             points={[
-              <>A/B testing and statistical modeling that increased campaign conversions by <strong>15%</strong></>,
-              <>Improved data quality by <strong>30%</strong> through cross-functional data governance and validation pipelines</>,
-              <>Built audience segmentation models to optimize ad targeting, content strategy, and budget allocation</>,
-              <>Defined KPIs with marketing and product teams; built the reporting infrastructure to track them</>,
+              <><strong>Lifted customer engagement 15% and cross-sell sales 20%</strong> by segmenting the client's customer base in SQL and Python (Jupyter, Snowflake), then shipping a Market Basket Analysis recommender on top.</>,
+              <><strong>Drove a 25% conversion-rate climb</strong> by shipping 15+ interactive Tableau and AWS QuickSight dashboards for client stakeholders and leading cross-functional campaigns with their marketing and product teams.</>,
+              <><strong>Saved 30+ hours of manual reporting every month</strong> by replacing the client's daily reporting with AWS ETL pipelines (S3, Glue, Redshift) in SQL and Python; layered Prophet time-series models on top forecasting quarterly revenue at 93% accuracy.</>,
+              <><strong>Ran 80+ ad-hoc analyses end-to-end on Snowflake</strong> using SQL and Python, cutting average turnaround time by 20%.</>,
             ]}/>
         </div>
       </div>
-
       {/* ── ABOUT ── */}
       <div className="wide-wrap" style={{ padding:"80px 72px",borderTop:"1px solid rgba(255,255,255,.06)" }} id="about">
         <SecTitle>ABOUT ME</SecTitle>
@@ -244,17 +244,18 @@ export default function Home() {
             <div style={{ fontFamily:DISP,fontSize:"2.5rem",letterSpacing:".04em",lineHeight:.95,color:"#fff",marginBottom:20 }}>
               BUSINESS<br/>PARTNER,<br/>NOT JUST<br/>AN ANALYST
             </div>
-            <p className="abt-p">I am a <strong>Data Analyst with 3+ years of professional experience</strong> supporting sales, marketing, and executive stakeholders across real estate and digital platforms. I specialize in transforming messy operational data into structured insights that drive measurable business impact.</p>
-            <p className="abt-p">At Echelon India, I served as the sole Sales Operations Data Analyst, supporting 12+ sales representatives and contributing to $24M+ project launches. My dashboards improved pipeline visibility, increased conversion rates by 12%, and optimized marketing ROI by 15%. I reduced manual reporting effort by 40% through SQL and Python automation.</p>
-            <p className="abt-p">Previously at ENC Network, I executed A/B testing, statistical modeling, and cross-functional analytics that increased campaign conversions by 15% and improved data quality by 30%.</p>
-            <p className="abt-p">I see myself not just as a data producer, but as a <strong>business partner</strong>. I own the full analytical lifecycle — from problem framing and data modeling to executive storytelling and recommendation delivery.</p>
+            <p className="abt-p">I'm a <strong>Data Analyst</strong> with experience across e-commerce retail operations, consulting for financial services, and nonprofit growth marketing. I work best where the data is messy, the stakeholders are mixed, and the answer isn't obvious yet.</p>
+            <p className="abt-p">At <strong>Pepperfry</strong>, I owned the Power BI operations layer across 250+ retail stores — rebuilding the data model cut dashboard load times by 82%, and moving the replacement-parts team to quantity-based forecasting cut $350K of excess inventory a year while lifting forecast accuracy 18%.</p>
+            <p className="abt-p">As a consultant at <strong>Odilia Global</strong> supporting a financial services client, I segmented their customer base and shipped a recommendation system that drove a 20% cross-sell sales lift, replaced their manual reporting with AWS ETL pipelines that gave back 30+ hours every month, and built Prophet forecasting models running at 93% accuracy.</p>
+            <p className="abt-p">Now at <strong>Delta Rising Foundation</strong>, I'm the sole analyst across web, paid media, and CRM — building the analytics stack from GA4 dashboards to a BigQuery warehouse proposal that unifies three siloed systems.</p>
+            <p className="abt-p">I see myself less as a data producer and more as a <strong>business partner</strong> — I want to own the full loop from problem framing to model to recommendation.</p>
             <div style={{ marginTop:28,display:"flex",gap:16,flexWrap:"wrap" }}>
               <a href="https://www.linkedin.com/in/dhruv-sharma2299/" target="_blank" rel="noreferrer" className="btn-red">Connect on LinkedIn</a>
               <a href="https://github.com/Dhruv10-hw" target="_blank" rel="noreferrer" className="btn-ghost">GitHub</a>
             </div>
           </div>
           <div style={{ display:"grid",gridTemplateColumns:"1fr 1fr",gap:2 }}>
-            {[["3+","Years Experience"],["$24M+","Revenue Influenced"],["12%","Conversion Lift"],["40%","Reporting Saved"],["15%","Campaign Lift"],["30%","Data Quality Gain"]].map(([n,l])=>(
+            {[["82%","Dashboard Speedup"],["$350K","Inventory Reduction"],["250+","Retail Stores Supported"],["93%","Forecast Accuracy"],["25%","Conversion Lift"],["30+","Hours Saved Monthly"]].map(([n,l])=>(
               <div key={l} style={{ background:SURF,padding:"26px 18px",textAlign:"center" }}>
                 <div style={{ fontFamily:DISP,fontSize:"2.2rem",color:RED }}>{n}</div>
                 <div style={{ fontSize:".68rem",letterSpacing:".12em",textTransform:"uppercase",color:MUTED,marginTop:4 }}>{l}</div>
